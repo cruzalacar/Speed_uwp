@@ -20,26 +20,16 @@ namespace Speed_UWP
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class GamePage : Page
     {
-        public MainPage()
+        public GamePage()
         {
             this.InitializeComponent();
         }
 
-        private void OnInstructions(object sender, RoutedEventArgs e)
+        private void OnReturn(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Instructions));
-        }
-
-        private void OnStartGame(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(GamePage));
-        }
-
-        private void OnExit(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Exit();
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }
