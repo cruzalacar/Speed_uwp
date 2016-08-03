@@ -24,7 +24,7 @@ namespace Speed_UWP
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            
         }
     }
 }
