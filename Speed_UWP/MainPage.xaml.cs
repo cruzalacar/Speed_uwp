@@ -29,7 +29,7 @@ namespace Speed_UWP
 
         private void OnInstructions(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Instructions));
         }
 
         private void OnStartGame(object sender, RoutedEventArgs e)
