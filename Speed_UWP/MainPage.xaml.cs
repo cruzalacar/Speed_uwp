@@ -24,7 +24,22 @@ namespace Speed_UWP
     {
         public MainPage()
         {
-            
+            this.InitializeComponent();
+        }
+
+        private void OnInstructions(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnStartGame(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnExit(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

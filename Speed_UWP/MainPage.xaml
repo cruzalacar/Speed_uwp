@@ -13,10 +13,10 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="_btnStart" Content="Start Game" HorizontalAlignment="Center" Margin="0,0,400,0" VerticalAlignment="Center" Width="300" Height="100" Grid.Row="1" Click="_btnStart_Click" FontSize="50"/>
-        <Button x:Name="_btnInstruct" Content="Instructions" HorizontalAlignment="Center" Margin="400,0,0,0" VerticalAlignment="Center" Width="300" Height="100" Grid.Row="1" FontSize="50"/>
-        <Button x:Name="_btnExit" Content="Exit" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Center" Width="300" Height="99" Grid.Row="2" FontSize="50"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="SPEED" VerticalAlignment="Center" TextChanged="textBox_TextChanged" Height="197" Width="477" FontSize="150" BorderThickness="0"/>
+        <Button x:Name="_btnStart" Content="Start Game" HorizontalAlignment="Center" Margin="0,0,400,0" VerticalAlignment="Center" Width="300" Height="100" Grid.Row="1" Click="OnStartGame" FontSize="50"/>
+        <Button x:Name="_btnInstruct" Content="Instructions" HorizontalAlignment="Center" Margin="400,0,0,0" VerticalAlignment="Center" Width="300" Height="100" Grid.Row="1" FontSize="50" Click="OnInstructions"/>
+        <Button x:Name="_btnExit" Content="Exit" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Center" Width="300" Height="99" Grid.Row="2" FontSize="50" Click="OnExit"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="SPEED" VerticalAlignment="Center" Height="197" Width="477" FontSize="150" BorderThickness="0"/>
 
     </Grid>
 </Page>
