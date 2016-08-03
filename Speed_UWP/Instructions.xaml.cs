@@ -24,7 +24,7 @@ namespace Speed_UWP
     {
         public Instructions()
         {
-            this.InitializeComponent();
+
         }
 
         /// <summary>
