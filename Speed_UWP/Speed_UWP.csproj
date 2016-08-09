@@ -92,6 +92,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -115,6 +116,59 @@
     <None Include="Speed_UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\c0.png" />
+    <Content Include="Assets\c2.png" />
+    <Content Include="Assets\c3.png" />
+    <Content Include="Assets\c4.png" />
+    <Content Include="Assets\c5.png" />
+    <Content Include="Assets\c6.png" />
+    <Content Include="Assets\c7.png" />
+    <Content Include="Assets\c8.png" />
+    <Content Include="Assets\c9.png" />
+    <Content Include="Assets\cA.png" />
+    <Content Include="Assets\card-back.jpg" />
+    <Content Include="Assets\cJ.png" />
+    <Content Include="Assets\cK.png" />
+    <Content Include="Assets\cQ.png" />
+    <Content Include="Assets\d0.png" />
+    <Content Include="Assets\d2.png" />
+    <Content Include="Assets\d3.png" />
+    <Content Include="Assets\d4.png" />
+    <Content Include="Assets\d5.png" />
+    <Content Include="Assets\d6.png" />
+    <Content Include="Assets\d7.png" />
+    <Content Include="Assets\d8.png" />
+    <Content Include="Assets\d9.png" />
+    <Content Include="Assets\dA.png" />
+    <Content Include="Assets\dJ.png" />
+    <Content Include="Assets\dK.png" />
+    <Content Include="Assets\dQ.png" />
+    <Content Include="Assets\h0.png" />
+    <Content Include="Assets\h2.png" />
+    <Content Include="Assets\h3.png" />
+    <Content Include="Assets\h4.png" />
+    <Content Include="Assets\h5.png" />
+    <Content Include="Assets\h6.png" />
+    <Content Include="Assets\h7.png" />
+    <Content Include="Assets\h8.png" />
+    <Content Include="Assets\h9.png" />
+    <Content Include="Assets\hA.png" />
+    <Content Include="Assets\hJ.png" />
+    <Content Include="Assets\hK.png" />
+    <Content Include="Assets\hQ.png" />
+    <Content Include="Assets\s0.png" />
+    <Content Include="Assets\s2.png" />
+    <Content Include="Assets\s3.png" />
+    <Content Include="Assets\s4.png" />
+    <Content Include="Assets\s5.png" />
+    <Content Include="Assets\s6.png" />
+    <Content Include="Assets\s7.png" />
+    <Content Include="Assets\s8.png" />
+    <Content Include="Assets\s9.png" />
+    <Content Include="Assets\sA.png" />
+    <Content Include="Assets\sJ.png" />
+    <Content Include="Assets\sK.png" />
+    <Content Include="Assets\sQ.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -144,6 +198,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
